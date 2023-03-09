@@ -1,0 +1,50 @@
+@tailwind base;
+
+a {
+    @apply text-blue-700;
+}
+
+a:hover {
+    @apply border-b-2 border-blue-700;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content p {
+    @apply my-6;
+}
+
+.content ul {
+    @apply my-6;
+}
+
+
+
+p,blockquote,h1,h2{
+    text-align:center;
+    margin-bottom: 0.75em;
+
+}
+
+p,blockquote {
+    font-size: 0.75rem;
+    color:black;
+}
+
+h1,h3{
+    text-transform: uppercase;
+    color:black;
+    font-size: 24px;
+    margin-bottom: 0em;
+    font-weight: bold;
+}
+
+
+h2{
+    text-transform: uppercase;
+    color: blue;
+    font-size: 12px;
+    font-weight: bold;
+}
